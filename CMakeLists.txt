@@ -17,7 +17,7 @@ project(lit)
 
 set(SOURCE_EXE Main.cpp )		# Установка переменной со списком исходников для исполняемого файла
 
-set(SOURCE_LIB Lit.h Exception.h FileWatcher.h)			# Тоже самое, но для библиотеки
+set(SOURCE_LIB Lit.h Exception.h FileWatcher.h Graph.h Commit.h Command.h)			# Тоже самое, но для библиотеки
 
 add_library(lib STATIC ${SOURCE_LIB})	# Создание статической библиотеки с именем foo
 

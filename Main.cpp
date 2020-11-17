@@ -1,18 +1,13 @@
 #include <iostream>
-#include <experimental/filesystem>
 //#include "FileWatcher.h"
 #include "Lit.h"
 #include <limits.h>
 #include <unistd.h>
 #include <vector>
 
-namespace fs = std::experimental::filesystem;
-
-using namespace std; //TODO
-
 int main(int argc, char* argv[])
 {
-    vector<string> argv_s;
+    std::vector<std::string> argv_s;
     
     for (int i = 0; i < argc; i++)
     {
@@ -33,7 +28,7 @@ int main(int argc, char* argv[])
         }
             
     }
-    catch(const string& e)
+    catch(const std::string& e)
     {
         std::cout << e << '\n';
     }
@@ -41,6 +36,6 @@ int main(int argc, char* argv[])
     
 
     const fs::path workdir = fs::current_path();
-    cout << workdir << endl;
+    std::cout << workdir << std::endl;
     return 0;
 }

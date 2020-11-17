@@ -46,7 +46,10 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3,
+				4,
+				5
 			]
 		}
 	],
@@ -65,6 +68,21 @@
 		{
 			"backtrace" : 1,
 			"path" : "FileWatcher.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Graph.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Commit.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Command.h",
 			"sourceGroupIndex" : 0
 		}
 	],

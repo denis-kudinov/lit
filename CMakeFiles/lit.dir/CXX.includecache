@@ -6,11 +6,39 @@
 
 #IncludeRegexTransform: 
 
+/home/ec2-user/lit/Command.h
+iostream
+-
+unistd.h
+-
+sys/wait.h
+-
+array
+-
+cstring
+-
+
+/home/ec2-user/lit/Commit.h
+iostream
+-
+vector
+-
+experimental/filesystem
+-
+
 /home/ec2-user/lit/Exception.h
 iostream
 -
 exception
 -
+
+/home/ec2-user/lit/Graph.h
+iostream
+-
+vector
+-
+Commit.h
+/home/ec2-user/lit/Commit.h
 
 /home/ec2-user/lit/Lit.h
 iostream
@@ -23,13 +51,19 @@ unistd.h
 -
 vector
 -
+map
+-
 Exception.h
 /home/ec2-user/lit/Exception.h
+Graph.h
+/home/ec2-user/lit/Graph.h
+Command.h
+/home/ec2-user/lit/Command.h
+memory
+-
 
 /home/ec2-user/lit/Main.cpp
 iostream
--
-experimental/filesystem
 -
 Lit.h
 /home/ec2-user/lit/Lit.h
