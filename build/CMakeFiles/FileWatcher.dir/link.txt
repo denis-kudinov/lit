@@ -1,0 +1,2 @@
+/usr/bin/ar qc libFileWatcher.a 
+/usr/bin/ranlib libFileWatcher.a

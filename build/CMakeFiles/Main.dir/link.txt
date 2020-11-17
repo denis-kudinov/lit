@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Main.dir/Main.cpp.o -o Main  liblib.a -lstdc++fs 

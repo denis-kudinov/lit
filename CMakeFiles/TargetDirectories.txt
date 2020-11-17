@@ -1,0 +1,4 @@
+/home/ec2-user/lit/CMakeFiles/rebuild_cache.dir
+/home/ec2-user/lit/CMakeFiles/edit_cache.dir
+/home/ec2-user/lit/CMakeFiles/lib.dir
+/home/ec2-user/lit/CMakeFiles/lit.dir

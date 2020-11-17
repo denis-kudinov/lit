@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ec2-user/lit/FileWatcher.h
+experimental/filesystem
+-
+chrono
+-
+thread
+-
+unordered_map
+-
+string
+-
+functional
+-
+
+/home/ec2-user/lit/Something.cpp
+iostream
+-
+experimental/filesystem
+-
+FileWatcher.h
+/home/ec2-user/lit/FileWatcher.h
+limits.h
+-
+unistd.h
+-
+

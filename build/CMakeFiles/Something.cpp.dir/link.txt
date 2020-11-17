@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Something.cpp.dir/Something.cpp.o -o Something.cpp  libFileWatcher.h.a 

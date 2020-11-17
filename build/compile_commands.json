@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ec2-user/lit/build",
+  "command": "/usr/bin/g++   -g -std=c++1z -o CMakeFiles/lit.dir/Main.cpp.o -c /home/ec2-user/lit/Main.cpp",
+  "file": "/home/ec2-user/lit/Main.cpp"
+}
+]
