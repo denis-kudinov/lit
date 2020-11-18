@@ -7,6 +7,9 @@
 
 int main(int argc, char* argv[])
 {
+
+    std::ofstream out("graph.txt");
+    
     std::vector<std::string> argv_s;
     
     for (int i = 0; i < argc; i++)
@@ -18,7 +21,7 @@ int main(int argc, char* argv[])
     {
         if(argc < 2)
         {
-            throw Exception("Use 'lit help'");
+            std::cout << "Use 'lit help'";
             
         }
         else
@@ -35,7 +38,7 @@ int main(int argc, char* argv[])
     
     
 
-    const fs::path workdir = fs::current_path();
-    std::cout << workdir << std::endl;
+    //const fs::path workdir = fs::current_path();
+    //std::cout << workdir << std::endl;
     return 0;
 }

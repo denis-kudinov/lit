@@ -1,46 +1,42 @@
-//inpired by https://www.techiedelight.com/graph-implementation-using-stl/
-
 #include <iostream>
 #include <vector>
-#include "Commit.h"
+#include <fstream>
 
-// data structure to store graph edges
+namespace fs = std::experimental::filesystem;
+
 struct Edge {
 	int src, dest;
 };
 
-// class to represent a graph object
 class Graph
 {
 public:
-	// construct a vector of vectors to represent an adjacency list
 	std::vector<std::vector<int>> adjList;
 
-	// Graph Constructor
-	Graph(std::vector<Edge> const &edges, int N)
-	{
-		// resize the vector to N elements of type vector<int>
-		adjList.resize(N);
-
-		// add edges to the directed graph
-		for (auto &edge: edges)
-		{
-			// insert at the end
-			adjList[edge.src].push_back(edge.dest);
-
-			// Uncomment below line for undirected graph
-			// adjList[edge.dest].push_back(edge.src);
-		}
-	}
-
-    void AddNode()
+    void AddNode(const int src, const int dest)
     {
-        
+        if(adjList.size() == src)
+            adjList.push_back({});
+        adjList[src].push_back(dest);
+    }
+
+    void ReadGraph()
+    {
+        fs::create_directories(".lit/graph.txt");
+        std::ifstream is(".lit/graph.txt");
+        std::string str;
+        int row = 0;
+        while(std::getline(is,str)) {
+            std::istringstream ss(str);
+            adjList.push_back({});
+            int node;
+            while(ss >> node) adjList[row++].push_back(node);
+        }
     }
 
 };
 
-// print adjacency list representation of graph
+
 void printGraph(Graph const& graph, int N)
 {
 	for (int i = 0; i < N; i++)

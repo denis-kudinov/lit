@@ -1,12 +1,12 @@
 #include <iostream>
-#include "FileWatcher.h"
+#include <vector>
+#include <experimental/filesystem>
+#include <memory>
 
-using namespace std;
+namespace fs = std::experimental::filesystem;
 
 int main()
 {
-    int n;
-    cin >> n;
-    cout << n;
-    return 0;
+    fs::create_directories(".lit/graph.txt");
+    
 }
