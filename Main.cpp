@@ -1,5 +1,5 @@
 #include <iostream>
-//#include "FileWatcher.h"
+//#include "Graph.h"
 #include "Lit.h"
 #include <limits.h>
 #include <unistd.h>
@@ -7,9 +7,6 @@
 
 int main(int argc, char* argv[])
 {
-
-    std::ofstream out("graph.txt");
-    
     std::vector<std::string> argv_s;
     
     for (int i = 0; i < argc; i++)
@@ -17,16 +14,24 @@ int main(int argc, char* argv[])
         argv_s.push_back(argv[i]);
     }
 
+    //argv_s.push_back("commit");
+    //argv_s.push_back("lol");
+
     try
     {
-        if(argc < 2)
+        if(argv_s.size() < 2) //TODO
         {
-            std::cout << "Use 'lit help'";
+            std::cout << "Use 'lit help'.\n";
             
         }
         else
         {
+
+            
             Lit* lit = new Lit(argv_s);
+            
+            
+            
             delete lit;
         }
             

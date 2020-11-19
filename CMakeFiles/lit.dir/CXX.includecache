@@ -21,11 +21,13 @@ cstring
 /home/ec2-user/lit/Commit.h
 iostream
 -
-vector
--
 experimental/filesystem
 -
-memory
+fstream
+-
+chrono
+-
+ctime
 -
 
 /home/ec2-user/lit/Exception.h
@@ -41,6 +43,8 @@ vector
 -
 fstream
 -
+sstream
+-
 
 /home/ec2-user/lit/Lit.h
 iostream
@@ -52,6 +56,8 @@ limits.h
 unistd.h
 -
 vector
+-
+map
 -
 Exception.h
 /home/ec2-user/lit/Exception.h

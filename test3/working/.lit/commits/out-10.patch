@@ -1,0 +1,18 @@
+diff -ruN '--exclude=.lit' /home/ec2-user/lit/test3/working/.lit/initial/file1 /home/ec2-user/lit/test3/working/file1
+--- /home/ec2-user/lit/test3/working/.lit/initial/file1	2020-11-18 16:14:08.860478485 +0000
++++ /home/ec2-user/lit/test3/working/file1	2020-11-18 16:30:40.207700259 +0000
+@@ -1 +1,2 @@
+-dkmsdmsdmkc
+\ No newline at end of file
++dkmsdmsdmkc
++mdscsdkcs
+\ No newline at end of file
+diff -ruN '--exclude=.lit' /home/ec2-user/lit/test3/working/.lit/initial/file2 /home/ec2-user/lit/test3/working/file2
+--- /home/ec2-user/lit/test3/working/.lit/initial/file2	2020-11-18 16:14:08.860478485 +0000
++++ /home/ec2-user/lit/test3/working/file2	2020-11-18 16:30:43.239697899 +0000
+@@ -1 +1,2 @@
+-sdmsdpc
+\ No newline at end of file
++sdmsdpc
++ksdsdckds
+\ No newline at end of file
