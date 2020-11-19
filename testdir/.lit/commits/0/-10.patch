@@ -1,0 +1,6 @@
+diff -ruN '--exclude=.lit' /home/ec2-user/lit/testdir/.lit/initial_copy/file1 /home/ec2-user/lit/testdir/file1
+--- /home/ec2-user/lit/testdir/.lit/initial_copy/file1	1970-01-01 00:00:00.000000000 +0000
++++ /home/ec2-user/lit/testdir/file1	2020-11-19 11:33:27.562398297 +0000
+@@ -0,0 +1,2 @@
++This is the first line of the first file. 🚀
++This is the second line of the first file.

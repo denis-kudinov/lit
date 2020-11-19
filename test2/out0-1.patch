@@ -1,0 +1,18 @@
+diff -ruN working/file1 initial/file1
+--- working/file1	2020-11-18 15:54:43.253451221 +0000
++++ initial/file1	2020-11-18 15:56:47.045334857 +0000
+@@ -1,2 +1 @@
+-dkmsdmsdmkc
+-mdscsdkcs
+\ No newline at end of file
++dkmsdmsdmkc
+\ No newline at end of file
+diff -ruN working/file2 initial/file2
+--- working/file2	2020-11-18 15:54:42.397451953 +0000
++++ initial/file2	2020-11-18 15:56:47.049334854 +0000
+@@ -1,2 +1 @@
+-sdmsdpc
+-ksdsdckds
+\ No newline at end of file
++sdmsdpc
+\ No newline at end of file

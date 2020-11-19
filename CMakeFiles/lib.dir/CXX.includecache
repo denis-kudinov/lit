@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ec2-user/lit/Exception.cpp
+iostream
+-
+exception
+-
+
+/home/ec2-user/lit/FileWatcher.cpp
+experimental/filesystem
+-
+chrono
+-
+thread
+-
+unordered_map
+-
+string
+-
+functional
+-
+
+/home/ec2-user/lit/Lit.cpp
+iostream
+-
+experimental/filesystem
+-
+limits.h
+-
+unistd.h
+-
+vector
+-
+
